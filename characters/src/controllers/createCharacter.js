@@ -1,3 +1,7 @@
-module.exports = (_req, res) => {
-  res.status(200).send({ message: 'Created character' })
+const { response } = require('../utils')
+const Characters = require('../data')
+
+module.exports = async (_req, res) => {
+  const character = await Characters.created()
+  response(res, 201, character)
 }
