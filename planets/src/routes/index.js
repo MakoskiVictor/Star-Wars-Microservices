@@ -5,4 +5,6 @@ const router = Router()
 
 router.get('/', controllers.getPlanets)
 
+router.post('/', controllers.createPlanet)
+
 module.exports = router
