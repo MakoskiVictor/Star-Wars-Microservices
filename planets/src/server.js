@@ -6,4 +6,8 @@ server.use(morgan('dev'))
 server.use(express.json())
 server.use(require('./routes'))
 
+server.use('*', (_req, res) => {
+  res.status(404).send('Not Found')
+})
+
 module.exports = server
