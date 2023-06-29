@@ -12,8 +12,11 @@ server.use('*', (_req, res) => {
 })
 
 // ErrorHandler
-server.use((err, req, res, next) => {
-  res.status(err.statusCode).send(err.message)
+server.use((ClientError, req, res, next) => {
+  res.status(ClientError.statusCode).send({
+    error: true,
+    message: ClientError.message
+  })
 })
 
 module.exports = server

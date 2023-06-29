@@ -11,8 +11,11 @@ server.use('*', (_req, res) => {
   res.status(404).send('Not found')
 })
 // Error Handler
-server.use((err, req, res, next) => {
-  res.status(err.statusCode).send(err.message)
+server.use((ClientError, req, res, next) => {
+  res.status(ClientError.statusCode).send({
+    error: true,
+    message: ClientError.message
+  })
 })
 
 module.exports = server
