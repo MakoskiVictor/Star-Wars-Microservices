@@ -1,4 +1,4 @@
-const response = require('../utils')
+const { response } = require('../utils')
 const Planet = require('../data')
 
 module.exports = async (req, res) => {
