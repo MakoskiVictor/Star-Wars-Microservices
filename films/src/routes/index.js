@@ -4,8 +4,8 @@ const midlewares = require('../midlewares')
 const { Router } = require('express')
 const router = Router()
 
-router.get('/', controllers.getFilms)
+router.get('/films', controllers.getFilms)
 
-router.post('/', midlewares.filmsValidation, controllers.postFilm)
+router.post('/films', midlewares.filmsValidation, controllers.postFilm)
 
 module.exports = router
