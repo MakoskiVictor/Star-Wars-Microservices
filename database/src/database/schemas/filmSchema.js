@@ -19,4 +19,8 @@ filmSchema.statics.getById = async function (id) {
   return await this.findById(id).populate('characters', ['_id', 'name']).populate('planets', ['_id', 'name'])
 }
 
+filmSchema.statics.create = async function (film) {
+  return await this.create(film)
+}
+
 module.exports = filmSchema
