@@ -22,4 +22,8 @@ planetSchema.statics.getById = async function (id) {
   return await this.findById(id).populate('res_idents', ['_id', 'name']).populate('films', ['_id', 'name'])
 }
 
+planetSchema.statics.create = async function (planet) {
+  return await this.create(planet)
+}
+
 module.exports = planetSchema
