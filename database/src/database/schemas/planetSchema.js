@@ -14,4 +14,8 @@ const planetSchema = new Schema({
   films: [{ type: String, ref: 'Film' }]
 })
 
+planetSchema.statics.list = async function () {
+  return await this.find().populate('res_idents', ['_id', 'name']).populate('films', ['_id', 'name'])
+}
+
 module.exports = planetSchema
