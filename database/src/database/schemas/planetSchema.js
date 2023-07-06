@@ -18,4 +18,8 @@ planetSchema.statics.list = async function () {
   return await this.find().populate('res_idents', ['_id', 'name']).populate('films', ['_id', 'name'])
 }
 
+planetSchema.statics.getById = async function (id) {
+  return await this.findById(id).populate('res_idents', ['_id', 'name']).populate('films', ['_id', 'name'])
+}
+
 module.exports = planetSchema
