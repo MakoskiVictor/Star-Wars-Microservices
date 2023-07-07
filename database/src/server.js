@@ -12,7 +12,7 @@ server.use('*', (_req, res) => {
   res.status(404).send('Not found')
 })
 // Error Handler
-server.use((ClientError, req, res, next) => {
+server.use((ClientError, _req, res, _next) => {
   res.status(ClientError.statusCode).send({
     error: true,
     message: ClientError.message
