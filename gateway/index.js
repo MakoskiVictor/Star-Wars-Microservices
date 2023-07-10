@@ -7,17 +7,17 @@ const {createProxyMiddleware} = require('http-proxy-middleware')
 const app = express()
 app.use(morgan('dev'))
 
-app.use('/Character', createProxyMiddleware({
+app.use('/characters', createProxyMiddleware({
   target: CHARACTER_PORT,
   changeOrigin: true
 }))
 
-app.use('/Film', createProxyMiddleware({
+app.use('/films', createProxyMiddleware({
   target: FILM_PORT,
   changeOrigin: true
 }))
 
-app.use('/Planet', createProxyMiddleware({
+app.use('/planets', createProxyMiddleware({
   target: PLANET_PORT,
   changeOrigin: true
 }))
