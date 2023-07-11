@@ -1,5 +1,6 @@
+const { catchAsync } = require('../utils')
 module.exports = {
-  getList: require('./getList'),
-  getById: require('./getById'),
-  postItem: require('./postItem')
+  getList: catchAsync(require('./getList')),
+  getById: catchAsync(require('./getById')),
+  postItem: catchAsync(require('./postItem'))
 }
