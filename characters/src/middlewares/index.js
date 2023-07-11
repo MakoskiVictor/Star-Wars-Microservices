@@ -1,3 +1,4 @@
 module.exports = {
-  characterValidation: require('./characterValidation')
+  characterValidation: require('./characterValidation'),
+  idValidator: require('./idValidator')
 }
