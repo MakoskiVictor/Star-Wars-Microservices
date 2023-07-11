@@ -5,6 +5,8 @@ const middlewares = require('../middlewares')
 
 router.get('/characters', controllers.getCharacters)
 
+router.get('/characters/:id', middlewares.idValidator, controllers.getCharacterById)
+
 router.post('/characters', middlewares.characterValidation, controllers.createCharacter)
 
 module.exports = router
