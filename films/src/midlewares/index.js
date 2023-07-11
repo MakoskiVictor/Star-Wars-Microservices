@@ -1,3 +1,4 @@
 module.exports = {
-  filmsValidation: require('./filmsValidation')
+  filmsValidation: require('./filmsValidation'),
+  idValidator: require('./idValidator')
 }
