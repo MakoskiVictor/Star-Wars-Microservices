@@ -1,7 +1,7 @@
 const { Schema } = require('mongoose')
 
 const planetSchema = new Schema({
-  _id: String,
+  _id: Schema.Types.UUID,
   name: String,
   rotation_period: String,
   orbital_period: String,
