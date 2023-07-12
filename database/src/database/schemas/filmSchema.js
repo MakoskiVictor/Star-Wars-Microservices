@@ -28,4 +28,8 @@ filmSchema.statics.insert = async function (film) {
   return await this.create(film)
 }
 
+filmSchema.statics.errase = async function (id) {
+  return await this.findOneAndDelete({ _id: id })
+}
+
 module.exports = filmSchema
