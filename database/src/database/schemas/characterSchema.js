@@ -1,7 +1,7 @@
 const { Schema } = require('mongoose')
 
 const characterSchema = new Schema({
-  _id: String,
+  _id: Schema.Types.UUID,
   name: String,
   height: String,
   mass: String,
