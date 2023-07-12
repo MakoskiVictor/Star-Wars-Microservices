@@ -2,5 +2,6 @@ const { catchAsync } = require('../utils')
 module.exports = {
   getList: catchAsync(require('./getList')),
   getById: catchAsync(require('./getById')),
-  postItem: catchAsync(require('./postItem'))
+  postItem: catchAsync(require('./postItem')),
+  deleteItem: catchAsync(require('./deleteItem'))
 }
