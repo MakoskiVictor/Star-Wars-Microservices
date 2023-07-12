@@ -31,4 +31,8 @@ planetSchema.statics.insert = async function (planet) {
   return await this.create(planet)
 }
 
+planetSchema.statics.errase = async function (id) {
+  return await this.findOneAndDelete({ _id: id })
+}
+
 module.exports = planetSchema
