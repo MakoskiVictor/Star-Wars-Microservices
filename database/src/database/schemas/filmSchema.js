@@ -1,7 +1,12 @@
 const { Schema } = require('mongoose')
+const { v4: uuidv4 } = require('uuid')
 
 const filmSchema = new Schema({
-  _id: Schema.Types.UUID,
+  _id: {
+    type: String,
+    default: uuidv4,
+    unique: true
+  },
   title: String,
   opening_crawl: String,
   director: String,
@@ -19,7 +24,7 @@ filmSchema.statics.getById = async function (id) {
   return await this.findById(id).populate('characters', ['_id', 'name']).populate('planets', ['_id', 'name'])
 }
 
-filmSchema.statics.create = async function (film) {
+filmSchema.statics.insert = async function (film) {
   return await this.create(film)
 }
 
