@@ -11,5 +11,6 @@ module.exports = {
     ecmaVersion: 'latest'
   },
   rules: {
+    camelcase: [1, { properties: 'never' }]
   }
 }
