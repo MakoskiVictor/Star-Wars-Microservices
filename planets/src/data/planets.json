@@ -2,6 +2,8 @@
   {
     "_id": "1",
     "name": "Tatooine",
+    "image": "",
+    "description": "",
     "rotation_period": "23",
     "orbital_period": "304",
     "diameter": "10465",
@@ -15,6 +17,8 @@
   {
     "_id": "2",
     "name": "Alderaan",
+    "image": "",
+    "description": "",
     "rotation_period": "24",
     "orbital_period": "364",
     "diameter": "12500",
@@ -28,6 +32,8 @@
   {
     "_id": "3",
     "name": "Yavin IV",
+    "image": "",
+    "description": "",
     "rotation_period": "24",
     "orbital_period": "4818",
     "diameter": "10200",
@@ -41,6 +47,8 @@
   {
     "_id": "4",
     "name": "Hoth",
+    "image": "",
+    "description": "",
     "rotation_period": "23",
     "orbital_period": "549",
     "diameter": "7200",
@@ -54,6 +62,8 @@
   {
     "_id": "5",
     "name": "Dagobah",
+    "image": "",
+    "description": "",
     "rotation_period": "23",
     "orbital_period": "341",
     "diameter": "8900",
@@ -67,6 +77,8 @@
   {
     "_id": "6",
     "name": "Bespin",
+    "image": "",
+    "description": "",
     "rotation_period": "12",
     "orbital_period": "5110",
     "diameter": "118000",
@@ -80,6 +92,8 @@
   {
     "_id": "7",
     "name": "Endor",
+    "image": "",
+    "description": "",
     "rotation_period": "18",
     "orbital_period": "402",
     "diameter": "4900",
@@ -93,6 +107,8 @@
   {
     "_id": "8",
     "name": "Naboo",
+    "image": "",
+    "description": "",
     "rotation_period": "26",
     "orbital_period": "312",
     "diameter": "12120",
@@ -118,6 +134,8 @@
   {
     "_id": "9",
     "name": "Coruscant",
+    "image": "",
+    "description": "",
     "rotation_period": "24",
     "orbital_period": "368",
     "diameter": "12240",
@@ -131,6 +149,8 @@
   {
     "_id": "10",
     "name": "Kamino",
+    "image": "",
+    "description": "",
     "rotation_period": "27",
     "orbital_period": "463",
     "diameter": "19720",
@@ -144,6 +164,8 @@
   {
     "_id": "11",
     "name": "Geonosis",
+    "image": "",
+    "description": "",
     "rotation_period": "30",
     "orbital_period": "256",
     "diameter": "11370",
@@ -157,6 +179,8 @@
   {
     "_id": "12",
     "name": "Utapau",
+    "image": "",
+    "description": "",
     "rotation_period": "27",
     "orbital_period": "351",
     "diameter": "12900",
@@ -170,6 +194,8 @@
   {
     "_id": "13",
     "name": "Mustafar",
+    "image": "",
+    "description": "",
     "rotation_period": "36",
     "orbital_period": "412",
     "diameter": "4200",
@@ -183,6 +209,8 @@
   {
     "_id": "14",
     "name": "Kashyyyk",
+    "image": "",
+    "description": "",
     "rotation_period": "26",
     "orbital_period": "381",
     "diameter": "12765",
@@ -196,6 +224,8 @@
   {
     "_id": "15",
     "name": "Polis Massa",
+    "image": "",
+    "description": "",
     "rotation_period": "24",
     "orbital_period": "590",
     "diameter": "0",
@@ -209,6 +239,8 @@
   {
     "_id": "16",
     "name": "Mygeeto",
+    "image": "",
+    "description": "",
     "rotation_period": "12",
     "orbital_period": "167",
     "diameter": "10088",
@@ -222,6 +254,8 @@
   {
     "_id": "17",
     "name": "Felucia",
+    "image": "",
+    "description": "",
     "rotation_period": "34",
     "orbital_period": "231",
     "diameter": "9100",
@@ -235,6 +269,8 @@
   {
     "_id": "18",
     "name": "Cato Neimo_idia",
+    "image": "",
+    "description": "",
     "rotation_period": "25",
     "orbital_period": "278",
     "diameter": "0",
@@ -248,6 +284,8 @@
   {
     "_id": "19",
     "name": "Saleucami",
+    "image": "",
+    "description": "",
     "rotation_period": "26",
     "orbital_period": "392",
     "diameter": "14920",
@@ -261,6 +299,8 @@
   {
     "_id": "20",
     "name": "Stewjon",
+    "image": "",
+    "description": "",
     "rotation_period": "unknown",
     "orbital_period": "unknown",
     "diameter": "0",
@@ -274,6 +314,8 @@
   {
     "_id": "21",
     "name": "Eriadu",
+    "image": "",
+    "description": "",
     "rotation_period": "24",
     "orbital_period": "360",
     "diameter": "13490",
@@ -287,6 +329,8 @@
   {
     "_id": "22",
     "name": "Corellia",
+    "image": "",
+    "description": "",
     "rotation_period": "25",
     "orbital_period": "329",
     "diameter": "11000",
@@ -300,6 +344,8 @@
   {
     "_id": "23",
     "name": "Rodia",
+    "image": "",
+    "description": "",
     "rotation_period": "29",
     "orbital_period": "305",
     "diameter": "7549",
@@ -313,6 +359,8 @@
   {
     "_id": "24",
     "name": "Nal Hutta",
+    "image": "",
+    "description": "",
     "rotation_period": "87",
     "orbital_period": "413",
     "diameter": "12150",
@@ -326,6 +374,8 @@
   {
     "_id": "25",
     "name": "Dantooine",
+    "image": "",
+    "description": "",
     "rotation_period": "25",
     "orbital_period": "378",
     "diameter": "9830",
@@ -339,6 +389,8 @@
   {
     "_id": "26",
     "name": "Bestine IV",
+    "image": "",
+    "description": "",
     "rotation_period": "26",
     "orbital_period": "680",
     "diameter": "6400",
@@ -352,6 +404,8 @@
   {
     "_id": "27",
     "name": "Ord Mantell",
+    "image": "",
+    "description": "",
     "rotation_period": "26",
     "orbital_period": "334",
     "diameter": "14050",
@@ -365,6 +419,8 @@
   {
     "_id": "28",
     "name": "unknown",
+    "image": "",
+    "description": "",
     "rotation_period": "0",
     "orbital_period": "0",
     "diameter": "0",
@@ -378,6 +434,8 @@
   {
     "_id": "29",
     "name": "Trandosha",
+    "image": "",
+    "description": "",
     "rotation_period": "25",
     "orbital_period": "371",
     "diameter": "0",
@@ -391,6 +449,8 @@
   {
     "_id": "30",
     "name": "Socorro",
+    "image": "",
+    "description": "",
     "rotation_period": "20",
     "orbital_period": "326",
     "diameter": "0",
@@ -404,6 +464,8 @@
   {
     "_id": "31",
     "name": "Mon Cala",
+    "image": "",
+    "description": "",
     "rotation_period": "21",
     "orbital_period": "398",
     "diameter": "11030",
@@ -417,6 +479,8 @@
   {
     "_id": "32",
     "name": "Chandrila",
+    "image": "",
+    "description": "",
     "rotation_period": "20",
     "orbital_period": "368",
     "diameter": "13500",
@@ -430,6 +494,8 @@
   {
     "_id": "33",
     "name": "Sullust",
+    "image": "",
+    "description": "",
     "rotation_period": "20",
     "orbital_period": "263",
     "diameter": "12780",
@@ -443,6 +509,8 @@
   {
     "_id": "34",
     "name": "Toydaria",
+    "image": "",
+    "description": "",
     "rotation_period": "21",
     "orbital_period": "184",
     "diameter": "7900",
@@ -456,6 +524,8 @@
   {
     "_id": "35",
     "name": "Malastare",
+    "image": "",
+    "description": "",
     "rotation_period": "26",
     "orbital_period": "201",
     "diameter": "18880",
@@ -469,6 +539,8 @@
   {
     "_id": "36",
     "name": "Dathomir",
+    "image": "",
+    "description": "",
     "rotation_period": "24",
     "orbital_period": "491",
     "diameter": "10480",
@@ -482,6 +554,8 @@
   {
     "_id": "37",
     "name": "Ryloth",
+    "image": "",
+    "description": "",
     "rotation_period": "30",
     "orbital_period": "305",
     "diameter": "10600",
@@ -495,6 +569,8 @@
   {
     "_id": "38",
     "name": "Aleen Minor",
+    "image": "",
+    "description": "",
     "rotation_period": "unknown",
     "orbital_period": "unknown",
     "diameter": "unknown",
@@ -508,6 +584,8 @@
   {
     "_id": "39",
     "name": "Vulpter",
+    "image": "",
+    "description": "",
     "rotation_period": "22",
     "orbital_period": "391",
     "diameter": "14900",
@@ -521,6 +599,8 @@
   {
     "_id": "40",
     "name": "Troiken",
+    "image": "",
+    "description": "",
     "rotation_period": "unknown",
     "orbital_period": "unknown",
     "diameter": "unknown",
@@ -534,6 +614,8 @@
   {
     "_id": "41",
     "name": "Tund",
+    "image": "",
+    "description": "",
     "rotation_period": "48",
     "orbital_period": "1770",
     "diameter": "12190",
@@ -547,6 +629,8 @@
   {
     "_id": "42",
     "name": "Haruun Kal",
+    "image": "",
+    "description": "",
     "rotation_period": "25",
     "orbital_period": "383",
     "diameter": "10120",
@@ -560,6 +644,8 @@
   {
     "_id": "43",
     "name": "Cerea",
+    "image": "",
+    "description": "",
     "rotation_period": "27",
     "orbital_period": "386",
     "diameter": "unknown",
@@ -573,6 +659,8 @@
   {
     "_id": "44",
     "name": "Glee Anselm",
+    "image": "",
+    "description": "",
     "rotation_period": "33",
     "orbital_period": "206",
     "diameter": "15600",
@@ -586,6 +674,8 @@
   {
     "_id": "45",
     "name": "Ir_idonia",
+    "image": "",
+    "description": "",
     "rotation_period": "29",
     "orbital_period": "413",
     "diameter": "unknown",
@@ -599,6 +689,8 @@
   {
     "_id": "46",
     "name": "Tholoth",
+    "image": "",
+    "description": "",
     "rotation_period": "unknown",
     "orbital_period": "unknown",
     "diameter": "unknown",
@@ -612,6 +704,8 @@
   {
     "_id": "47",
     "name": "Iktotch",
+    "image": "",
+    "description": "",
     "rotation_period": "22",
     "orbital_period": "481",
     "diameter": "unknown",
@@ -625,6 +719,8 @@
   {
     "_id": "48",
     "name": "Quermia",
+    "image": "",
+    "description": "",
     "rotation_period": "unknown",
     "orbital_period": "unknown",
     "diameter": "unknown",
@@ -638,6 +734,8 @@
   {
     "_id": "49",
     "name": "Dorin",
+    "image": "",
+    "description": "",
     "rotation_period": "22",
     "orbital_period": "409",
     "diameter": "13400",
@@ -651,6 +749,8 @@
   {
     "_id": "50",
     "name": "Champala",
+    "image": "",
+    "description": "",
     "rotation_period": "27",
     "orbital_period": "318",
     "diameter": "unknown",
@@ -664,6 +764,8 @@
   {
     "_id": "51",
     "name": "Mirial",
+    "image": "",
+    "description": "",
     "rotation_period": "unknown",
     "orbital_period": "unknown",
     "diameter": "unknown",
@@ -677,6 +779,8 @@
   {
     "_id": "52",
     "name": "Serenno",
+    "image": "",
+    "description": "",
     "rotation_period": "unknown",
     "orbital_period": "unknown",
     "diameter": "unknown",
@@ -690,6 +794,8 @@
   {
     "_id": "53",
     "name": "Concord Dawn",
+    "image": "",
+    "description": "",
     "rotation_period": "unknown",
     "orbital_period": "unknown",
     "diameter": "unknown",
@@ -703,6 +809,8 @@
   {
     "_id": "54",
     "name": "Zolan",
+    "image": "",
+    "description": "",
     "rotation_period": "unknown",
     "orbital_period": "unknown",
     "diameter": "unknown",
@@ -716,6 +824,8 @@
   {
     "_id": "55",
     "name": "Ojom",
+    "image": "",
+    "description": "",
     "rotation_period": "unknown",
     "orbital_period": "unknown",
     "diameter": "unknown",
@@ -729,6 +839,8 @@
   {
     "_id": "56",
     "name": "Skako",
+    "image": "",
+    "description": "",
     "rotation_period": "27",
     "orbital_period": "384",
     "diameter": "unknown",
@@ -742,6 +854,8 @@
   {
     "_id": "57",
     "name": "Muunilinst",
+    "image": "",
+    "description": "",
     "rotation_period": "28",
     "orbital_period": "412",
     "diameter": "13800",
@@ -755,6 +869,8 @@
   {
     "_id": "58",
     "name": "Shili",
+    "image": "",
+    "description": "",
     "rotation_period": "unknown",
     "orbital_period": "unknown",
     "diameter": "unknown",
@@ -768,6 +884,8 @@
   {
     "_id": "59",
     "name": "Kalee",
+    "image": "",
+    "description": "",
     "rotation_period": "23",
     "orbital_period": "378",
     "diameter": "13850",
@@ -781,6 +899,8 @@
   {
     "_id": "60",
     "name": "Umbara",
+    "image": "",
+    "description": "",
     "rotation_period": "unknown",
     "orbital_period": "unknown",
     "diameter": "unknown",
