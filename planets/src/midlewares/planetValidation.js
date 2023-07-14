@@ -14,7 +14,7 @@ module.exports = (req, res, next) => {
       terrain &&
       surface_water &&
       res_idents &&
-     films
+      films
   ) return next()
   else throw new ClientError('Name is missing', 401)
 }
