@@ -12,5 +12,5 @@ module.exports = (req, _res, next) => {
       characters &&
       planets
   ) return next()
-  else throw new ClientError('Information is missing', 401)
+  else throw new ClientError('Information is missing', 403)
 }
