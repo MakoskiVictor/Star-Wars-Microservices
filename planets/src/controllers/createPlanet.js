@@ -1,7 +1,9 @@
 const { response } = require('../utils')
-const Planet = require('../data')
-
+const { URL_DATABASE } = require('../config/envs')
+const axios = require('axios')
+// Falta probar
 module.exports = async (req, res) => {
-  const planet = await Planet.create()
+  const form = req.body
+  const planet = await axios.post(`${URL_DATABASE}/Planet`, form)
   response(res, 201, planet)
 }
