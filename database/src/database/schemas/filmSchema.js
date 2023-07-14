@@ -8,6 +8,7 @@ const filmSchema = new Schema({
     unique: true
   },
   title: String,
+  image: String,
   opening_crawl: String,
   director: String,
   producer: String,
