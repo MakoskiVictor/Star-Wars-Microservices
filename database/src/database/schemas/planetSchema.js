@@ -8,6 +8,8 @@ const planetSchema = new Schema({
     unique: true
   },
   name: String,
+  image: String,
+  description: String,
   rotation_period: String,
   orbital_period: String,
   diameter: String,
