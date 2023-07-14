@@ -15,5 +15,5 @@ module.exports = (req, _res, next) => {
     gender &&
     homeworld &&
     films) return next()
-  else throw new ClientError('Name is missing', 401)
+  else throw new ClientError('Name is missing', 403)
 }
