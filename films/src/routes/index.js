@@ -10,6 +10,6 @@ router.get('/films/:id', midlewares.idValidator, controllers.getFilmById)
 
 router.post('/films', midlewares.filmsValidation, controllers.postFilm)
 
-router.delete('./films/:id', midlewares.idValidator, controllers.deleteFilm)
+router.delete('/films/:id', midlewares.idValidator, controllers.deleteFilm)
 
 module.exports = router
