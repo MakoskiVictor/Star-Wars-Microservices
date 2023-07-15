@@ -16,5 +16,5 @@ module.exports = (req, res, next) => {
       res_idents &&
       films
   ) return next()
-  else throw new ClientError('Name is missing', 403)
+  else throw new ClientError('Information is missing', 403)
 }
