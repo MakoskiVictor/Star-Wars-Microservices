@@ -9,6 +9,6 @@ router.get('/characters/:id', middlewares.idValidator, controllers.getCharacterB
 
 router.post('/characters', middlewares.characterValidation, controllers.createCharacter)
 
-router.get('/characters/:id', middlewares.idValidator, controllers.deleteCharacter)
+router.delete('/characters/:id', middlewares.idValidator, controllers.deleteCharacter)
 
 module.exports = router
