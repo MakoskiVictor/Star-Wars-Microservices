@@ -4,6 +4,6 @@ const axios = require('axios')
 // Falta probar
 module.exports = async (req, res) => {
   const form = req.body
-  const planet = await axios.post(`${URL_DATABASE}/Planet`, form)
-  response(res, 201, planet)
+  await axios.post(`${URL_DATABASE}/Planet`, form)
+  response(res, 201)
 }
