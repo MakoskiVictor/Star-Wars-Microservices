@@ -1,4 +1,4 @@
-import { useGetFilms } from './hooks/useGetFilms'
+import { useGetFilms } from './hooks'
 
 export default function Films () {
   const { data, isLoading } = useGetFilms()
