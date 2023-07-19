@@ -1,11 +1,13 @@
 const express = require('express')
 const morgan = require('morgan')
 const cors = require('cors')
-const { PLANET_PORT, CHARACTER_PORT, FILM_PORT, PORT } = require('./config/envs')
+// const { PLANET_PORT, CHARACTER_PORT, FILM_PORT, PORT } = require('./config/envs')
 const {createProxyMiddleware} = require('http-proxy-middleware')
 
 
 const app = express()
+
+const PORT = 8000
 
 const corsOptions = {
   origin: '*',
@@ -18,17 +20,17 @@ app.use(morgan('dev'))
 app.use(cors(corsOptions))
 
 app.use('/characters', createProxyMiddleware({
-  target: CHARACTER_PORT,
+  target: 'http://characters:8001/',
   changeOrigin: true
 }))
 
 app.use('/films', createProxyMiddleware({
-  target: FILM_PORT,
+  target: 'http://films:8002/',
   changeOrigin: true
 }))
 
 app.use('/planets', createProxyMiddleware({
-  target: PLANET_PORT,
+  target: 'http://planets:8003/',
   changeOrigin: true
 }))
 
