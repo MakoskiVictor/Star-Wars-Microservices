@@ -1,1 +1,1 @@
-export { default as landing } from './landing'
+export { default as Landing } from './Landing'
