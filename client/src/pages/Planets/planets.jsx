@@ -1,4 +1,6 @@
 import { useGetPlanets } from './hooks'
+import { Card } from '../../components/Card'
+import styles from './Planets.module.css'
 
 export default function Planets () {
   const { data, isLoading } = useGetPlanets()
@@ -8,12 +10,12 @@ export default function Planets () {
   return (
     <>
       <h2>Planets</h2>
-      { data?.map(planets => (
-        <div key={planets._id} >
-          <p>{planets.name} </p>
-          <img src={planets.image} alt="Planet image" />
-        </div>
-      )) }
+
+      <div className={styles.planets}>
+          { data?.map(planets => (
+          <Card key={planets._id} props={planets} />
+          )) }
+      </div>
     </>
   )
 }
