@@ -1,10 +1,11 @@
 import './App.css'
 import { Routes, BrowserRouter, Route } from 'react-router-dom'
-import Landing from './pages/Landing/landing'
-import Home from './pages/Home/home'
-import Characteres from './pages/Characters/characters'
+import Landing from './pages/Landing'
+import Home from './pages/Home'
+import Characteres from './pages/Characters'
 import Films from './pages/Films/films'
 import Planets from './pages/Planets/planets'
+import { NotFound } from './pages/NotFound'
 
 function App () {
   return (
@@ -20,6 +21,8 @@ function App () {
         <Route path='/films' element={<Films/>} />
 
         <Route path='/planets' element={<Planets/>} />
+
+        <Route path='*' element={<NotFound/>} />
 
     </Routes>
     </BrowserRouter>
