@@ -1,10 +1,11 @@
 import { useGetFilms } from './hooks'
 import { Card } from '../../components/Card'
+import { Loader } from '../../components/Loader'
 import styles from './Films.module.css'
 
 export default function Films () {
   const { data, isLoading } = useGetFilms()
-  if (isLoading) return <div>Loading...</div>
+  if (isLoading) return <Loader/>
   return (
     <>
       <h2>Films</h2>
