@@ -1,4 +1,5 @@
 import { useGetFilms } from './hooks'
+import { Card } from '../../components/Card'
 
 export default function Films () {
   const { data, isLoading } = useGetFilms()
@@ -7,10 +8,7 @@ export default function Films () {
     <>
       <h2>Films</h2>
       { data?.map(films => (
-        <div key={films._id} >
-          <p>{films.title} </p>
-          <img src={films.image} alt="Movie image" />
-        </div>
+        <Card key={films._id} props={films} />
       )) }
     </>
   )
