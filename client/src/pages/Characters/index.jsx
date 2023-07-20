@@ -3,7 +3,7 @@ import { Card } from '../../components/Card'
 import { Loader } from '../../components/Loader'
 import styles from './Characters.module.css'
 
-export default function Characteres () {
+export default function Characters () {
   const { data, isLoading } = useGetCharacters()
 
   if (isLoading) return <Loader/>
