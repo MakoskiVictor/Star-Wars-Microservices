@@ -1,4 +1,5 @@
 import { useGetCharacters } from './hooks'
+import { Card } from '../../components/Card'
 
 export default function Characteres () {
   const { data, isLoading } = useGetCharacters()
@@ -8,10 +9,7 @@ export default function Characteres () {
     <>
       <h2>Characteres</h2>
       { data.map(character => (
-        <div key={character._id}>
-          <p>Name: {character.name}</p>
-          <img src={character.image} alt="Character image" />
-        </div>
+        <Card key={character._id} props={character} />
       )) }
     </>
   )
