@@ -1,11 +1,12 @@
 import { useGetPlanets } from './hooks'
 import { Card } from '../../components/Card'
+import { Loader } from '../../components/Loader'
 import styles from './Planets.module.css'
 
 export default function Planets () {
   const { data, isLoading } = useGetPlanets()
 
-  if (isLoading) return <div>Loading...</div>
+  if (isLoading) return <Loader/>
 
   return (
     <>
