@@ -6,6 +6,9 @@ import Characters from './pages/Characters'
 import Films from './pages/Films'
 import Planets from './pages/Planets'
 import NotFound from './pages/NotFound'
+import DetailsCharacter from './pages/DetailsCharacter'
+import DetailsFilm from './pages/DetailsFilm'
+import DetailsPlanet from './pages/DetailsPlanet'
 
 function App () {
   return (
@@ -18,9 +21,15 @@ function App () {
 
         <Route path='/characters' element={<Characters/>} />
 
+        <Route path='/characters/:id' element={<DetailsCharacter/>} />
+
         <Route path='/films' element={<Films/>} />
 
+        <Route path='/films/:id' element={<DetailsFilm/>} />
+
         <Route path='/planets' element={<Planets/>} />
+
+        <Route path='/planets/:id' element={<DetailsPlanet/>} />
 
         <Route path='*' element={<NotFound/>} />
 
