@@ -11,4 +11,29 @@
   src: url('./assets/Fonts/Starjedi.ttf');
 }
 
+@font-face {
+  font-family: Roboto-Light;
+  src: url('./assets/Fonts/Roboto-Light.ttf');
+}
+
+@font-face {
+  font-family: Roboto-LightItalic;
+  src: url('./assets/Fonts/Roboto-LightItalic.ttf');
+}
+
+@font-face {
+  font-family: Roboto-Medium;
+  src: url('./assets/Fonts/Roboto-Medium.ttf');
+}
+
+@font-face {
+  font-family: Roboto-MediumItalic;
+  src: url('./assets/Fonts/Roboto-MediumItalic.ttf');
+}
+
+@font-face {
+  font-family: Roboto-Regular;
+  src: url('./assets/Fonts/Roboto-Regular.ttf');
+}
+
 
