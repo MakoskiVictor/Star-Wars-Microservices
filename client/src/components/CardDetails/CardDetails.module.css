@@ -1,0 +1,140 @@
+.card {
+  max-width: 1100px;
+  max-height: 1000px;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+
+/* TOP */
+
+.top {
+  display: flex;
+  border-radius: 5px;
+  margin: 0px;
+}
+
+/* LEFT */
+
+.image {
+  max-width: 800px;
+  max-height: 510px;
+  width: 100%;
+  height: 100%;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+/* RIGHT */
+
+.topRight {
+  background-color: #1d1e1f;
+  max-width: 400px;
+  max-height: 390px;
+  width: 100%;
+  height: 100%;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.cardDecal {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 20px;
+  width: 55px;
+  margin-left: 30px;
+}
+
+.cardDecalLeft {
+  background-color: rgb(148, 151, 154);
+  margin: 15px 3px auto 0px;
+  border-radius: 5px;
+  height: 4px;
+  width: 15px;
+}
+
+.cardDecalRight {
+  background-color: rgb(148, 151, 154);
+  margin: 15px auto auto 0px;
+  border-radius: 50%;
+  height: 4px;
+  width: 5px;
+}
+
+.textContainer {
+  max-width: 400px;
+  height: 350px;
+  margin: 0px auto 0px auto;
+}
+.titleContainer {
+  margin-left: 30px;
+}
+
+.textTitle {
+  font-family: Starjedi;
+  font-display: initial;
+  text-align: left;
+}
+
+.descriptionContainer {
+  margin: auto 30px auto 30px;
+}
+
+.textDescription {
+  font-family: Roboto-Regular;
+  font-size: 13px;
+  flex-wrap: wrap;
+  text-align: start;
+  margin: auto 5px auto 5 px;
+}
+
+.card:hover {
+  .cardDecalLeft {
+    background-color: white;
+    box-shadow: 0px 0px 5px white;
+  }
+
+  .cardDecalRight {
+    background-color: white;
+    box-shadow: 0px 0px 5px white;
+  }
+}
+
+/* BOTTOM */
+
+.bottom {
+  /* background-color: gray; */
+  display: flex;
+  padding: 5px;
+  align-content: center;
+  justify-content: space-around;
+  height: 200px;
+}
+
+.divider {
+  width: 1px;
+  margin: auto 0px auto 0px;
+  height: 80%;
+  background-color: rgb(118, 120, 122);
+}
+
+.detailsContainer {
+  max-width: 250px;
+}
+
+.detailsText {
+  word-wrap: break-word;
+  margin-top: 50px;
+}
+
+.detailsTextFilms {
+  word-wrap: break-word;
+}
+
+.lineBottom {
+  margin: auto;
+  height: 1px;
+  max-width: 1280px;
+  background-color: rgb(118, 120, 122);
+}
