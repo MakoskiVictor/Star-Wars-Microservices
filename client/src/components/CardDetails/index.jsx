@@ -2,7 +2,8 @@ import styles from './CardDetails.module.css'
 import CardDescriptionDetail from '../CardDescriptionDetail'
 
 export default function CardDetails ({ props }) {
-  console.log('PROPS', props)
+  const filmsStyles = props.films.length > 1 ? styles.detailsTextFilms : styles.detailsTextFilmsSingle
+
   return (
     <div className={styles.card} >
     <div className={styles.top} >
@@ -115,9 +116,7 @@ export default function CardDetails ({ props }) {
           <p>Homeworld</p>
           </div>
           <div>
-            {/* <Link to={'/planets/:id'} > */}
               <p className={styles.detailsText} >{props.homeworld.name} </p>
-            {/* </Link> */}
           </div>
         </div>
 
@@ -128,7 +127,7 @@ export default function CardDetails ({ props }) {
           <p>Films</p>
           <div>
             { props.films.map(film => (
-              <p className={styles.detailsTextFilms} key={film._id} > {film.name} </p>
+              <p className={filmsStyles} key={film._id} > {film.title} </p>
             )) }
           </div>
           </div>
