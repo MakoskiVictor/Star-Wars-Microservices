@@ -2,6 +2,7 @@ import { useGetCharacters } from './hooks'
 import { Card } from '../../components/Card'
 import { Loader } from '../../components/Loader'
 import styles from './Characters.module.css'
+import { Link } from 'react-router-dom'
 
 export default function Characters () {
   const { data, isLoading } = useGetCharacters()
@@ -13,7 +14,9 @@ export default function Characters () {
 
       <div className={styles.characters}>
         { data.map(character => (
-          <Card key={character._id} props={character} />
+          <Link key={character._id} to={`/characters/${character._id}`} >
+            <Card key={character._id} props={character} />
+          </Link>
         )) }
 
       </div>
