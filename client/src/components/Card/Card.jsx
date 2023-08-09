@@ -7,6 +7,10 @@ export default function Card ({ props }) {
 
   return (
     <div className={ filteredCardStyles } >
+                  <div className={styles.cardDecal} >
+              <div className={styles.cardDecalLeft}></div>
+              <div className={styles.cardDecalRight}></div>
+            </div>
       <p className={styles.title} >{filteredName}</p>
 
         <img src={props.image} alt="Image" className={filteredImgStyles } />
