@@ -22,6 +22,32 @@
   margin: auto;
 }
 
+.cardDecal {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 10px;
+  width: 55px;
+  margin-right: 1px;
+  margin-left: auto;
+}
+
+.cardDecalLeft {
+  background-color: rgb(148, 151, 154);
+  margin: 10px 3px auto 0px;
+  border-radius: 5px;
+  height: 4px;
+  width: 15px;
+}
+
+.cardDecalRight {
+  background-color: rgb(148, 151, 154);
+  margin: 10px auto auto 0px;
+  border-radius: 50%;
+  height: 4px;
+  width: 5px;
+}
+
 .img {
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
@@ -43,6 +69,7 @@
 }
 
 .title {
+  font-family: Roboto-Medium;
   height: 30px;
   padding: 0.1px;
   border-start-start-radius: 10px;
@@ -50,3 +77,14 @@
   font-size: 20px;
 }
 
+.card:hover {
+  .cardDecalLeft {
+    background-color: white;
+    box-shadow: 0px 0px 5px white;
+  }
+
+  .cardDecalRight {
+    background-color: white;
+    box-shadow: 0px 0px 5px white;
+  }
+}
