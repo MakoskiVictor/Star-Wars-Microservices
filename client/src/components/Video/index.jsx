@@ -9,7 +9,6 @@ export function Video () {
     height: '780',
     width: '1280',
     playerVars: {
-      // https://developers.google.com/youtube/player_parameters
       autoplay: 1
     }
   }
