@@ -1,21 +1,15 @@
-import { Video } from './Video'
+import trailer from '../../assets/Video/trailer.webm'
 import styles from './Landing.module.css'
-/* import starWars from '../../assets/Images/starWars.svg' */
 
 export default function Landing () {
   return (
-    <div className={styles.landing} >
-
-      <div className={styles.imgTitleContainer} >
-
-        <div className={styles.startBtn} > <div className={styles.start} >START</div> </div>
-      </div>
-        <img src="https://res.cloudinary.com/dl9pbe0eu/image/upload/v1692100179/1310579_vekigt.webp" alt="Star Wars Img" className={styles.wallpaper} />
-
-      <div className={styles.bottom} >
-        <Video />
-      </div>
-
-    </div>
+    <main className={styles.landing}>
+      <section className={styles.section} >
+        <h1>Star Wars Microservices</h1>
+        <div className={styles.videoContainer}>
+          <video src={trailer} autoPlay muted loop className={styles.video}></video>
+        </div>
+      </section>
+    </main>
   )
 }
