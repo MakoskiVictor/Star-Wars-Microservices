@@ -1,5 +1,6 @@
 import './App.css'
 import MethodCard from './components/MethodCard'
+import ExampleRequest from './components/ExampleRequest'
 
 function App () {
   return (
@@ -25,6 +26,8 @@ function App () {
             <li>Update Film</li>
           </ol>
           </section>
+
+          <ExampleRequest />
 
           <MethodCard id='Get All Characters' />
           <MethodCard id='Get All Planets' />
