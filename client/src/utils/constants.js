@@ -39,7 +39,7 @@ export const getLinkById = (id) => {
   }
 }
 
-export const EXAMPLE_GET_ALL_CHARACTERS = {
+export const EXAMPLE_GET_ALL_CHARACTERS = `{
   error: false,
   data: [
     {
@@ -121,4 +121,4 @@ export const EXAMPLE_GET_ALL_CHARACTERS = {
       ]
     }
   ]
-}
+}`
