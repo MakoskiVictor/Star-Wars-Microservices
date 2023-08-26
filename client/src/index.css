@@ -26,6 +26,7 @@ a {
 
 body {
   margin: 0;
+  padding: 0;
   display: flex;
   place-items: center;
   min-width: 320px;
@@ -34,11 +35,6 @@ body {
 /* Remove scrollbar */
 body::-webkit-scrollbar {
   display: none;
-}
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
 }
 
 
