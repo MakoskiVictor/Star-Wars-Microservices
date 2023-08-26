@@ -7,6 +7,7 @@ import style from './MethodCard.module.css'
 export default function MethodCard ({ id }) {
   const getLink = getLinkById(id)
 
+  // Copy the info in the SyntaxHighlighter
   const handleClipboardLink = () => {
     navigator.clipboard.writeText(getLink).catch(() => {})
   }
