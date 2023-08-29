@@ -35,6 +35,7 @@ function App () {
           <MethodCard id='Get Character by ID' />
           <MethodCard id='Get Planet by ID' />
           <MethodCard id='Get Film by ID' />
+          <h3>How works the Post and Put routes?</h3>
           <MethodCard id='Post Planet' />
           <MethodCard id='Post Film' />
           <MethodCard id='Update Character' />
