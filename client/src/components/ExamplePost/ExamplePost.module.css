@@ -1,0 +1,22 @@
+.container {
+  max-width: 800px;
+  margin: auto;
+  background-color: #272822;
+}
+
+.containerHead {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(56, 56, 56);
+  padding: 1px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.syntax {
+  padding: 10px;
+}
+
+.example {
+  margin-left: 10px;
+}
