@@ -77,3 +77,40 @@ export const EXAMPLE_GET_ALL_CHARACTERS = `{
   ]
   }
   }`
+
+export const EXAMPLE_POST_CHARACTERS =
+` CHARACTERS
+
+  name: String,
+  image: String,
+  description: String,
+  height: String,
+  mass: String,
+  hair_color: String,
+  skin_color: String,
+  eye_color: String,
+  birth_year: String,
+  gender: String
+  
+  PLANETS
+
+  name: String,
+  image: String,
+  description: String,
+  rotation_period: String,
+  orbital_period: String,
+  diameter: String,
+  climate: String,
+  gravity: String,
+  terrain: String,
+  surface_water: String
+
+  FILMS
+
+  title: String,
+  image: String,
+  opening_crawl: String,
+  director: String,
+  producer: String,
+  release_date: Date
+  `
