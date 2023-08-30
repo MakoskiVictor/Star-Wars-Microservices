@@ -1,6 +1,7 @@
 import './App.css'
 import MethodCard from './components/MethodCard'
 import ExampleRequest from './components/ExampleRequest'
+import ExamplePost from './components/ExamplePost'
 
 function App () {
   return (
@@ -36,6 +37,8 @@ function App () {
           <MethodCard id='Get Planet by ID' />
           <MethodCard id='Get Film by ID' />
           <h3>How works the Post and Put routes?</h3>
+          <p>For Post and Put method you should know that it is necessary to use the following formats in you form:</p>
+          <ExamplePost />
           <MethodCard id='Post Planet' />
           <MethodCard id='Post Film' />
           <MethodCard id='Update Character' />
