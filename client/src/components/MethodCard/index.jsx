@@ -13,7 +13,7 @@ export default function MethodCard ({ id }) {
   }
 
   return (
-    <div>
+    <div id={id} >
     <h3> {id} </h3>
     <div className={style.container} >
       <div className={style.containerHead} >
