@@ -14,17 +14,17 @@ function App () {
 
           <h2>What are the Api Methods?</h2>
           <ol>
-            <li>Get All Characters</li>
-            <li>Get All Planets</li>
-            <li>Get All Films</li>
-            <li>Get Character by ID</li>
-            <li>Get Planet by ID</li>
-            <li>Get Film by ID</li>
-            <li>Post Planet</li>
-            <li>Post Film</li>
-            <li>Update Character</li>
-            <li>Update Planet</li>
-            <li>Update Film</li>
+            <a href="#Get All Characters" ><li>Get All Characters</li></a>
+            <a href="#Get All Planets"><li>Get All Planets</li></a>
+            <a href="#Get All Films"><li>Get All Films</li></a>
+            <a href="#Get Character by ID"><li>Get Character by ID</li></a>
+            <a href="#Get Planet by ID"><li>Get Planet by ID</li></a>
+            <a href="#Get Film by ID"><li>Get Film by ID</li></a>
+            <a href="#Post Planet"><li>Post Planet</li></a>
+            <a href="#Post Film"><li>Post Film</li></a>
+            <a href="#Update Character"><li>Update Character</li></a>
+            <a href="#Update Planet"><li>Update Planet</li></a>
+            <a href="#Update Film"><li>Update Film</li></a>
           </ol>
           </section>
 
@@ -36,8 +36,10 @@ function App () {
           <MethodCard id='Get Character by ID' />
           <MethodCard id='Get Planet by ID' />
           <MethodCard id='Get Film by ID' />
-          <h3>How works the Post and Put routes?</h3>
+          <br />
+          <h2>How works the Post and Put routes?</h2>
           <p>For Post and Put method you should know that it is necessary to use the following formats in you form:</p>
+          <br />
           <ExamplePost />
           <MethodCard id='Post Planet' />
           <MethodCard id='Post Film' />
