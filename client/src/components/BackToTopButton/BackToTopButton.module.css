@@ -1,0 +1,25 @@
+.toTop {
+  display: none;
+}
+
+.toTop2 {
+  position: fixed;
+  bottom: 30px;
+  right: 50px;
+}
+
+.icon {
+  display: none;
+}
+
+.icon2 {
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+  background-color: wheat;
+}
+
+.icon2:hover {
+  background-color: rgb(130, 1, 1);
+}
+
