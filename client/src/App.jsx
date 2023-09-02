@@ -2,11 +2,13 @@ import './App.css'
 import MethodCard from './components/MethodCard'
 import ExampleRequest from './components/ExampleRequest'
 import ExamplePost from './components/ExamplePost'
+import BackToTopButton from './components/BackToTopButton'
 
 function App () {
   return (
     <main>
-      <h1>Star Wars Microservices</h1>
+      <h1 id='title' >Star Wars Microservices</h1>
+      <BackToTopButton />
       <section>
         <p>All Star Wars data you´ll never need in one place, easily accsessible through a modern REST Api with Microservices Architecture!</p>
       </section>
