@@ -3,6 +3,7 @@ import MethodCard from './components/MethodCard'
 import ExampleRequest from './components/ExampleRequest'
 import ExamplePost from './components/ExamplePost'
 import BackToTopButton from './components/BackToTopButton'
+import Footer from './components/Footer'
 
 function App () {
   return (
@@ -48,6 +49,8 @@ function App () {
           <MethodCard id='Update Character' />
           <MethodCard id='Update Planet' />
           <MethodCard id='Update Film' />
+
+          <Footer />
 
     </main>
   )
