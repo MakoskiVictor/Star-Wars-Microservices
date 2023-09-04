@@ -76,9 +76,24 @@ li:hover {
 }
 
 
+
 @media (max-width: 1400px) {
   main {
     max-width: 900px;
     margin: auto;
+  }
+}
+
+@media (max-width: 365px) {
+  h1 {
+    font-size: 30px;
+  }
+  
+  h2 {
+    font-size: 18px;
+  }
+  
+  h3 {
+    font-size: 18px;
   }
 }
