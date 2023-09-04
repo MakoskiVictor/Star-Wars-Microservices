@@ -4,10 +4,20 @@ import ExampleRequest from './components/ExampleRequest'
 import ExamplePost from './components/ExamplePost'
 import BackToTopButton from './components/BackToTopButton'
 import Footer from './components/Footer'
+import { Helmet } from 'react-helmet'
 
 function App () {
   return (
     <main>
+      <Helmet>
+        <title>Título de tu Página</title>
+        <meta name="description" content="All Star Wars data you´ll never need in one place, easily accsessible through a modern REST Api with Microservices Architecture!" />
+        <meta property="og:title" content="Star Wars Microservices" />
+        <meta property="og:description" content="All Star Wars data you´ll never need in one place, easily accsessible through a modern REST Api with Microservices Architecture!" />
+        <meta property="og:image" content="https://res.cloudinary.com/dl9pbe0eu/image/upload/q_49/v1693819421/microservic_n4don8.webp" />
+        <meta property="og:url" content="URL de tu página" />
+        <meta property="og:type" content="website" />
+      </Helmet>
       <h1 id='title' >Star Wars Microservices</h1>
       <BackToTopButton />
       <section>
