@@ -76,4 +76,9 @@ li:hover {
 }
 
 
-/* @media() */
+@media (max-width: 1400px) {
+  main {
+    max-width: 900px;
+    margin: auto;
+  }
+}
