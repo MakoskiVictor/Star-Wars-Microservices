@@ -10,7 +10,7 @@ function App () {
   return (
     <main>
       <Helmet>
-        <title>Título de tu Página</title>
+        <title>Star Wars Microservices</title>
         <meta name="description" content="All Star Wars data you´ll never need in one place, easily accsessible through a modern REST Api with Microservices Architecture!" />
         <meta property="og:title" content="Star Wars Microservices" />
         <meta property="og:description" content="All Star Wars data you´ll never need in one place, easily accsessible through a modern REST Api with Microservices Architecture!" />
