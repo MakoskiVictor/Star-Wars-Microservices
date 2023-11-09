@@ -1,4 +1,4 @@
-const BASE_URL = 'http://34.125.79.61:8000/'
+const BASE_URL = 'http://34.16.170.61:8000/'
 
 export const getLinkById = (id) => {
   if (id === 'Get All Characters') {
